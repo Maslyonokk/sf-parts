@@ -1,8 +1,12 @@
 const testField = document.getElementById('test-field')
 const outputTextField = document.getElementById('output-text-field')
+const copyButton = document.getElementById('copy-button')
 
 let selectedCodes = []
 
+copyButton.addEventListener('click', function(){
+    navigator.clipboard.writeText(outputTextField.textContent)
+})
 
 function addEventListeners() {
     const partCards = document.getElementsByClassName('part-card')

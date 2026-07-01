@@ -10,6 +10,11 @@ img {
     max-width: 200px;
 }
 
+.codes-area {
+    margin-bottom: 20px;
+
+}
+
 .grid {
     display: flex;
 
