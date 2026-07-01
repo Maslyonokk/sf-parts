@@ -17,6 +17,8 @@ img {
 
 .grid {
     display: flex;
+    max-width: 90vw;
+    flex-wrap: wrap;
 
 
 }
