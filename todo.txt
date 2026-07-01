@@ -1,0 +1,2 @@
+Make a small prototype: 3 tiles with images and text, when selected they populate a text area with the SKUs
+Make it pull objects from a dictionary 

@@ -1,0 +1,54 @@
+const testField = document.getElementById('test-field')
+const outputTextField = document.getElementById('output-text-field')
+
+let selectedCodes = []
+
+
+function addEventListeners() {
+    const partCards = document.getElementsByClassName('part-card')
+    for (let card of partCards){
+        card.addEventListener('click', toggleCard)
+    }
+    console.log("addEventListeners ran")
+}
+
+function toggleCard(e){
+    // document.getElementById(e.target.id).classList.add('highlight')
+    if (e.target.id){
+        document.getElementById(e.target.id).classList.toggle('highlight')
+        console.log("toggleCard no parent")
+        addOrRemoveSKU(e.target.id)
+    } 
+    else if (e.target.parentElement.id){
+        document.getElementById(e.target.parentElement.id).classList.toggle('highlight')
+        console.log("toggleCard yes parent")
+        addOrRemoveSKU(e.target.parentElement.id)
+    }
+    
+    outputAllSKU()
+    console.log(e.target.id)
+    console.log(e.target.parentElement.id)
+    console.log("toggleCard ran")
+}
+
+addEventListeners()
+
+function addOrRemoveSKU(code){
+    if (selectedCodes.includes(code)){
+        console.log("Removing a code")
+        console.log(selectedCodes)
+        let position = selectedCodes.indexOf(code)
+        selectedCodes.splice(position, 1)
+        console.log(selectedCodes)
+    } else {
+        selectedCodes.push(code)
+    }
+    
+}
+
+function outputAllSKU(){
+    outputTextField.textContent = null
+    for (let i=0; i<selectedCodes.length; i++){
+        outputTextField.textContent += selectedCodes[i] + ", "
+    }
+}

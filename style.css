@@ -1,0 +1,27 @@
+body {
+
+}
+
+/* * {
+    border: 1px dotted red;
+} */
+
+img {
+    max-width: 200px;
+}
+
+.grid {
+    display: flex;
+
+
+}
+
+.part-card {
+    border: 1px solid blue;
+    padding: 10px;
+    text-align: center;
+}
+
+.highlight {
+    background-color: darkcyan;
+}
