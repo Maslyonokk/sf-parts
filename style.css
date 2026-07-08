@@ -1,5 +1,6 @@
 body {
-
+    padding: 25px;
+    font-family: "Roboto", sans-serif;
 }
 
 /* * {
@@ -10,8 +11,17 @@ img {
     max-width: 200px;
 }
 
+button {
+    width: 150px;
+    height: 100px;
+    font-size: larger;
+}
+
 .codes-area {
     margin-bottom: 20px;
+    min-height: 100px;
+    background-color:lightsteelblue;
+    font-size: 28px;
 
 }
 
