@@ -1,6 +1,7 @@
 body {
     padding: 25px;
     font-family: "Roboto", sans-serif;
+    background-color: #f3f3f3;
 }
 
 /* * {
@@ -13,14 +14,23 @@ img {
 
 button {
     width: 150px;
-    height: 100px;
+    height: 80px;
     font-size: larger;
+    background-color: #00a9e0;
+    border-radius: 200px;
+    border: none;
+    color: white;
+    margin-bottom: 30px;
+}
+
+button:active {
+    background-color: #005774
 }
 
 .codes-area {
     margin-bottom: 20px;
     min-height: 100px;
-    background-color:lightsteelblue;
+    background-color:white;
     font-size: 28px;
 
 }
@@ -34,11 +44,15 @@ button {
 }
 
 .part-card {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding: 10px;
+    margin: 7px;
     text-align: center;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 2px 2px #999;
 }
 
 .highlight {
-    background-color: darkcyan;
+    background-color: #fe8900;
 }
