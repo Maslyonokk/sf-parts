@@ -4,6 +4,7 @@ const copyButton = document.getElementById('copy-button')
 
 let selectedCodes = []
 
+
 copyButton.addEventListener('click', function(){
     navigator.clipboard.writeText(outputTextField.textContent)
 })
@@ -18,6 +19,7 @@ function addEventListeners() {
 
 function toggleCard(e){
     // document.getElementById(e.target.id).classList.add('highlight')
+    //this if-elif makes sure that it doesn't matter whether the user clicks on an element withing the card or on the background
     if (e.target.id){
         document.getElementById(e.target.id).classList.toggle('highlight')
         console.log("toggleCard no parent")
@@ -53,6 +55,7 @@ function addOrRemoveSKU(code){
 function outputAllSKU(){
     outputTextField.textContent = null
     for (let i=0; i<selectedCodes.length; i++){
-        outputTextField.textContent += selectedCodes[i] + ", "
+        outputTextField.textContent += selectedCodes[i] + "\n"
     }
 }
+
