@@ -55,7 +55,7 @@ function addOrRemoveSKU(code){
 function outputAllSKU(){
     outputTextField.textContent = null
     for (let i=0; i<selectedCodes.length; i++){
-        outputTextField.textContent += selectedCodes[i] + "\n"
+        outputTextField.textContent += selectedCodes[i] + "\n" //codes are still displayed in a line, but copying them with the copy button gets them with line breaks (which is what we want). Manually highlighting still copies it in one line though. If it proves to be a problem in testing I'll just disable highlighting 
     }
 }
 
