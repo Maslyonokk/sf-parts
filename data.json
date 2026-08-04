@@ -1,0 +1,107 @@
+[
+  {
+    "name": "washerM5",
+    "SKU": "350123",
+    "forPedal": true,
+    "forPower": true,
+    "img": "imgs\\m5_washer.webp"
+  },
+  {
+    "name": "Nipple 14/13 for wheel R",
+    "SKU": "100111",
+    "forPedal": true,
+    "forPower": true,
+    "img": "imgs\\nipple.png"
+  },
+  {
+    "name": "Nipple 14/14 for wheel F",
+    "SKU": 100112,
+    "forPedal": true,
+    "forPower": true,
+    "img": "imgs\\nipple.png"
+  },
+  {
+    "name": "Rim Tape",
+    "SKU": 100115,
+    "forPedal": true,
+    "forPower": true,
+    "img": "imgs\\spoke.png"
+  },
+  {
+    "name": "Spoke 283x2.3 for wheel R",
+    "SKU": 100116,
+    "forPedal": true,
+    "forPower": true,
+    "img": "imgs\\spoke.png"
+  },
+  {
+    "name": "Spoke 285x2.0 for wheel F",
+    "SKU": 100117,
+    "forPedal": true,
+    "forPower": true,
+    "img": "imgs\\spoke.png"
+  },
+  {
+    "name": "Spoke 291x2.3 for wheel R",
+    "SKU": 100118,
+    "forPedal": true,
+    "forPower": true,
+    "img": "imgs\\spoke.png"
+  },
+  {
+    "name": "Spoke 293x2.0 for wheel F",
+    "SKU": 100119,
+    "forPedal": true,
+    "forPower": true,
+    "img": "imgs\\spoke.png"
+  },
+  {
+    "name": "Sprocket 17T",
+    "SKU": 100120,
+    "forPedal": true,
+    "forPower": true,
+    "img": "imgs\\sprocket17t.jpg"
+  },
+  {
+    "name": "Sprocket 18T",
+    "SKU": 100121,
+    "forPedal": true,
+    "forPower": true,
+    "img": "imgs\\sprocket18t.jpg"
+  },
+  {
+    "name": "Wheel F cap nut",
+    "SKU": 100130,
+    "forPedal": true,
+    "forPower": true,
+    "img": "imgs\\nuts30.png"
+  },
+  {
+    "name": "Wheel R Non-turn Washer Left Grey",
+    "SKU": 100131,
+    "forPedal": true,
+    "forPower": true,
+    "img": "imgs\\gear_washer_l.png"
+  },
+  {
+    "name": "Wheel R non-turn washer Right Black",
+    "SKU": 100110,
+    "forPedal": true,
+    "forPower": true,
+    "img": "imgs\\gear_washer_r.png"
+  },
+  {
+    "name": "Wheel R cap nut 7/8sp",
+    "SKU": 100136,
+    "forPedal": true,
+    "forPower": true,
+    "img": "imgs\\nuts_36.png"
+  },
+  {
+    "name": "Wheel R cap nut 1sp",
+    "SKU": 100137,
+    "forPedal": true,
+    "forPower": true,
+    "img": "imgs\\nuts_37.jpg"
+  }
+]

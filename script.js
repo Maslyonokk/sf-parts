@@ -1,3 +1,29 @@
+async function loadPartsJSON() {
+    const response = await fetch("data.json");
+    console.log("fetching data.json")
+    const partsArray = await response.json();
+    console.log("finished data.json")
+
+    const partsDisplay = document.getElementById('parts')
+
+    partsDisplay.innerHTML = ``
+    for (let i of partsArray){
+        partsDisplay.innerHTML += 
+            `
+            <div class="part-card" id="${i.SKU}">
+                        <img src="${i.img}">
+                        <p class="part-name">${i.name}</p>
+                        <p class="sku-number">${i.SKU}</p>
+                    </div>
+            `
+    }
+
+    addEventListeners()
+}
+
+loadPartsJSON()
+
+
 const testField = document.getElementById('test-field')
 const outputTextField = document.getElementById('output-text-field')
 const copyButton = document.getElementById('copy-button')
@@ -37,7 +63,7 @@ function toggleCard(e){
     console.log("toggleCard ran")
 }
 
-addEventListeners()
+// addEventListeners()
 
 function addOrRemoveSKU(code){
     if (selectedCodes.includes(code)){

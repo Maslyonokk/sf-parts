@@ -45,6 +45,8 @@ button:active {
 
 .part-card {
     /* border: 1px solid blue; */
+    width: 200px;
+    height: 290px;
     padding: 10px;
     margin: 7px;
     text-align: center;

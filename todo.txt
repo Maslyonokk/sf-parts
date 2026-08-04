@@ -1,2 +1,7 @@
 Make a small prototype: 3 tiles with images and text, when selected they populate a text area with the SKUs
 Make it pull objects from a dictionary 
+
+[ ] Fix layout of the card, so all the numbers and names are in the same place with different pictures
+[ ] Create sections for parts: wheels, drivetrain, handlebar, etc.
+[ ] Create 2 different tabs for pedal and power hooks
+[ ] Add a few parts once in a while
