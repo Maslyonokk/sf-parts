@@ -1,5 +1,5 @@
 async function loadPartsJSON() {
-    const response = await fetch("data.json");
+    const response = await fetch("convertcsv.json");
     console.log("fetching data.json")
     const partsArray = await response.json();
     console.log("finished data.json")
@@ -27,12 +27,24 @@ loadPartsJSON()
 const testField = document.getElementById('test-field')
 const outputTextField = document.getElementById('output-text-field')
 const copyButton = document.getElementById('copy-button')
+const clearButton = document.getElementById('clear-button')
 
 let selectedCodes = []
 
 
 copyButton.addEventListener('click', function(){
     navigator.clipboard.writeText(outputTextField.textContent)
+})
+
+clearButton.addEventListener('click', function(){
+    const partCards = document.getElementsByClassName('part-card')
+    for (let card of partCards){
+        card.classList.remove('highlight')
+    }  //removign highlight from all cards
+    selectedCodes = [] //emptying arrays of codes of selected cards
+    outputAllSKU() //writing all currently selected codes (which should be none)
+    console.log("Selected codes: ", selectedCodes)
+
 })
 
 function addEventListeners() {
@@ -45,7 +57,7 @@ function addEventListeners() {
 
 function toggleCard(e){
     // document.getElementById(e.target.id).classList.add('highlight')
-    //this if-elif makes sure that it doesn't matter whether the user clicks on an element withing the card or on the background
+    //this if-elif makes sure that it doesn't matter whether the user clicks on an element within the card or on the background
     if (e.target.id){
         document.getElementById(e.target.id).classList.toggle('highlight')
         console.log("toggleCard no parent")
