@@ -3,33 +3,105 @@ async function loadPartsJSON() {
     console.log("fetching data.json")
     const partsArray = await response.json();
     console.log("finished data.json")
+    
+    addPartCards(partsArray)
 
-    const partsDisplay = document.getElementById('parts')
+    
+    // const partsDisplay = document.getElementById('parts')
 
-    partsDisplay.innerHTML = ``
-    for (let i of partsArray){
-        partsDisplay.innerHTML += 
-            `
-            <div class="part-card" id="${i.SKU}">
-                        <img src="${i.img}">
-                        <p class="part-name">${i.name}</p>
-                        <p class="sku-number">${i.SKU}</p>
-                    </div>
-            `
-    }
+    // partsDisplay.innerHTML = ``
+    // for (let i of partsArray){
+    //     partsDisplay.innerHTML += 
+            // `
+            // <div class="part-card" id="${i.SKU}">
+            //             <img src="${i.img}">
+            //             <p class="part-name">${i.name}</p>
+            //             <p class="sku-number">${i.SKU}</p>
+            //         </div>
+            // `
+    // }
 
-    addEventListeners()
+    // addEventListeners()
 }
 
 loadPartsJSON()
-
+//addPartCards()
 
 const testField = document.getElementById('test-field')
 const outputTextField = document.getElementById('output-text-field')
 const copyButton = document.getElementById('copy-button')
 const clearButton = document.getElementById('clear-button')
 
+const partsMostUsed = document.getElementById('parts-most-used')
+const partsWheel = document.getElementById('parts-wheel')
+const partsBrakes = document.getElementById('parts-brakes')
+const partsFenders = document.getElementById('parts-fenders')
+const partsDrivetrain = document.getElementById('parts-drivetrain')
+
+
+
 let selectedCodes = []
+
+function addPartCards(allPartsArray){
+    for (let i of allPartsArray){
+        //Checking for most used separately from the switch statement is intentional. This allows a part to appear in both MostUsed section and its own part category
+        if (i.mostUsed){
+            partsMostUsed.innerHTML+=
+                    `
+                    <div class="part-card" id="${i.SKU}">
+                        <img src="${i.img}">
+                        <p class="part-name">${i.name}</p>
+                        <p class="sku-number">${i.SKU}</p>
+                    </div>
+                    `;
+        }
+        switch (i.partCategory){
+            case "Wheel":
+                partsWheel.innerHTML+=
+                    `
+                    <div class="part-card" id="${i.SKU}">
+                        <img src="${i.img}">
+                        <p class="part-name">${i.name}</p>
+                        <p class="sku-number">${i.SKU}</p>
+                    </div>
+                    `;
+                break;
+            case "Brakes":
+                partsBrakes.innerHTML+=
+                    `
+                    <div class="part-card" id="${i.SKU}">
+                        <img src="${i.img}">
+                        <p class="part-name">${i.name}</p>
+                        <p class="sku-number">${i.SKU}</p>
+                    </div>
+                    `;
+                break;
+            case "Fenders":
+                partsFenders.innerHTML+=
+                    `
+                    <div class="part-card" id="${i.SKU}">
+                        <img src="${i.img}">
+                        <p class="part-name">${i.name}</p>
+                        <p class="sku-number">${i.SKU}</p>
+                    </div>
+                    `;
+                break;
+            case "Drivetrain":
+                partsDrivetrain.innerHTML+=
+                    `
+                    <div class="part-card" id="${i.SKU}">
+                        <img src="${i.img}">
+                        <p class="part-name">${i.name}</p>
+                        <p class="sku-number">${i.SKU}</p>
+                    </div>
+                    `;
+                break;
+        }
+    
+    }
+    addEventListeners()
+
+}
 
 
 copyButton.addEventListener('click', function(){
