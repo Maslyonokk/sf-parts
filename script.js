@@ -56,153 +56,156 @@ let selectedCodes = []
 //Going through all the parts in the JSON, sort them into their respective categories
 function addPartCards(allPartsArray){
     for (let i of allPartsArray){
-        //Checking for most used separately from the switch statement is intentional. This allows a part to appear in both MostUsed section and its own part category
-        //Temporarily parts are not duplicated in their own categories because that leads to unforeseen behavior
-        if (i.mostUsed){
-            partsMostUsed.innerHTML+=
-                    `
-                    <div class="part-card" id="${i.SKU}">
-                        <img src="${i.img}">
-                        <p class="part-name">${i.name}</p>
-                        <p class="sku-number">${i.SKU}</p>
-                    </div>
-                    `;
-        } else {
-            switch (i.partCategory){
-                case "Wheel":
-                    partsWheel.innerHTML+=
-                        `
-                        <div class="part-card" id="${i.SKU}">
-                            <img src="${i.img}">
-                            <p class="part-name">${i.name}</p>
-                            <p class="sku-number">${i.SKU}</p>
-                        </div>
-                        `;
-                    break;
-                case "Brakes":
-                    partsBrakes.innerHTML+=
-                        `
-                        <div class="part-card" id="${i.SKU}">
-                            <img src="${i.img}">
-                            <p class="part-name">${i.name}</p>
-                            <p class="sku-number">${i.SKU}</p>
-                        </div>
-                        `;
-                    break;
-                case "Fenders":
-                    partsFenders.innerHTML+=
-                        `
-                        <div class="part-card" id="${i.SKU}">
-                            <img src="${i.img}">
-                            <p class="part-name">${i.name}</p>
-                            <p class="sku-number">${i.SKU}</p>
-                        </div>
-                        `;
-                    break;
-                case "Drivetrain":
-                    partsDrivetrain.innerHTML+=
-                        `
-                        <div class="part-card" id="${i.SKU}">
-                            <img src="${i.img}">
-                            <p class="part-name">${i.name}</p>
-                            <p class="sku-number">${i.SKU}</p>
-                        </div>
-                        `;
-                    break;
-                case "Gears":
-                    partsGears.innerHTML+=
-                        `
-                        <div class="part-card" id="${i.SKU}">
-                            <img src="${i.img}">
-                            <p class="part-name">${i.name}</p>
-                            <p class="sku-number">${i.SKU}</p>
-                        </div>
-                        `;
-                    break;
-                case "Chainguard":
-                    partsChainguard.innerHTML+=
-                        `
-                        <div class="part-card" id="${i.SKU}">
-                            <img src="${i.img}">
-                            <p class="part-name">${i.name}</p>
-                            <p class="sku-number">${i.SKU}</p>
-                        </div>
-                        `;
-                    break;
-                case "Steering":
-                    partsSteering.innerHTML+=
-                        `
-                        <div class="part-card" id="${i.SKU}">
-                            <img src="${i.img}">
-                            <p class="part-name">${i.name}</p>
-                            <p class="sku-number">${i.SKU}</p>
-                        </div>
-                        `;
-                    break;
-                case "Carrier":
-                    partsCarrier.innerHTML+=
-                        `
-                        <div class="part-card" id="${i.SKU}">
-                            <img src="${i.img}">
-                            <p class="part-name">${i.name}</p>
-                            <p class="sku-number">${i.SKU}</p>
-                        </div>
-                        `;
-                    break;
-                case "Frame":
-                    partsFrame.innerHTML+=
-                        `
-                        <div class="part-card" id="${i.SKU}">
-                            <img src="${i.img}">
-                            <p class="part-name">${i.name}</p>
-                            <p class="sku-number">${i.SKU}</p>
-                        </div>
-                        `;
-                    break;
-                case "Lights":
-                    partsLights.innerHTML+=
-                        `
-                        <div class="part-card" id="${i.SKU}">
-                            <img src="${i.img}">
-                            <p class="part-name">${i.name}</p>
-                            <p class="sku-number">${i.SKU}</p>
-                        </div>
-                        `;
-                    break;
-                case "Locks":
-                    partsLocks.innerHTML+=
-                        `
-                        <div class="part-card" id="${i.SKU}">
-                            <img src="${i.img}">
-                            <p class="part-name">${i.name}</p>
-                            <p class="sku-number">${i.SKU}</p>
-                        </div>
-                        `;
-                    break;
-                case "Saddle":
-                    partsSaddle.innerHTML+=
-                        `
-                        <div class="part-card" id="${i.SKU}">
-                            <img src="${i.img}">
-                            <p class="part-name">${i.name}</p>
-                            <p class="sku-number">${i.SKU}</p>
-                        </div>
-                        `;
-                    break;
-                case "Hardware":
-                    partsHardware.innerHTML+=
-                        `
-                        <div class="part-card" id="${i.SKU}">
-                            <img src="${i.img}">
-                            <p class="part-name">${i.name}</p>
-                            <p class="sku-number">${i.SKU}</p>
-                        </div>
-                        `;
-                    break;
-        }
+        if (i.forPedal){
 
-        }
         
+            //Checking for most used separately from the switch statement is intentional. This allows a part to appear in both MostUsed section and its own part category
+            //Temporarily parts are not duplicated in their own categories because that leads to unforeseen behavior
+            if (i.mostUsed){
+                partsMostUsed.innerHTML+=
+                        `
+                        <div class="part-card" id="${i.SKU}">
+                            <img src="${i.img}">
+                            <p class="part-name">${i.name}</p>
+                            <p class="sku-number">${i.SKU}</p>
+                        </div>
+                        `;
+            } else {
+                switch (i.partCategory){
+                    case "Wheel":
+                        partsWheel.innerHTML+=
+                            `
+                            <div class="part-card" id="${i.SKU}">
+                                <img src="${i.img}">
+                                <p class="part-name">${i.name}</p>
+                                <p class="sku-number">${i.SKU}</p>
+                            </div>
+                            `;
+                        break;
+                    case "Brakes":
+                        partsBrakes.innerHTML+=
+                            `
+                            <div class="part-card" id="${i.SKU}">
+                                <img src="${i.img}">
+                                <p class="part-name">${i.name}</p>
+                                <p class="sku-number">${i.SKU}</p>
+                            </div>
+                            `;
+                        break;
+                    case "Fenders":
+                        partsFenders.innerHTML+=
+                            `
+                            <div class="part-card" id="${i.SKU}">
+                                <img src="${i.img}">
+                                <p class="part-name">${i.name}</p>
+                                <p class="sku-number">${i.SKU}</p>
+                            </div>
+                            `;
+                        break;
+                    case "Drivetrain":
+                        partsDrivetrain.innerHTML+=
+                            `
+                            <div class="part-card" id="${i.SKU}">
+                                <img src="${i.img}">
+                                <p class="part-name">${i.name}</p>
+                                <p class="sku-number">${i.SKU}</p>
+                            </div>
+                            `;
+                        break;
+                    case "Gears":
+                        partsGears.innerHTML+=
+                            `
+                            <div class="part-card" id="${i.SKU}">
+                                <img src="${i.img}">
+                                <p class="part-name">${i.name}</p>
+                                <p class="sku-number">${i.SKU}</p>
+                            </div>
+                            `;
+                        break;
+                    case "Chainguard":
+                        partsChainguard.innerHTML+=
+                            `
+                            <div class="part-card" id="${i.SKU}">
+                                <img src="${i.img}">
+                                <p class="part-name">${i.name}</p>
+                                <p class="sku-number">${i.SKU}</p>
+                            </div>
+                            `;
+                        break;
+                    case "Steering":
+                        partsSteering.innerHTML+=
+                            `
+                            <div class="part-card" id="${i.SKU}">
+                                <img src="${i.img}">
+                                <p class="part-name">${i.name}</p>
+                                <p class="sku-number">${i.SKU}</p>
+                            </div>
+                            `;
+                        break;
+                    case "Carrier":
+                        partsCarrier.innerHTML+=
+                            `
+                            <div class="part-card" id="${i.SKU}">
+                                <img src="${i.img}">
+                                <p class="part-name">${i.name}</p>
+                                <p class="sku-number">${i.SKU}</p>
+                            </div>
+                            `;
+                        break;
+                    case "Frame":
+                        partsFrame.innerHTML+=
+                            `
+                            <div class="part-card" id="${i.SKU}">
+                                <img src="${i.img}">
+                                <p class="part-name">${i.name}</p>
+                                <p class="sku-number">${i.SKU}</p>
+                            </div>
+                            `;
+                        break;
+                    case "Lights":
+                        partsLights.innerHTML+=
+                            `
+                            <div class="part-card" id="${i.SKU}">
+                                <img src="${i.img}">
+                                <p class="part-name">${i.name}</p>
+                                <p class="sku-number">${i.SKU}</p>
+                            </div>
+                            `;
+                        break;
+                    case "Locks":
+                        partsLocks.innerHTML+=
+                            `
+                            <div class="part-card" id="${i.SKU}">
+                                <img src="${i.img}">
+                                <p class="part-name">${i.name}</p>
+                                <p class="sku-number">${i.SKU}</p>
+                            </div>
+                            `;
+                        break;
+                    case "Saddle":
+                        partsSaddle.innerHTML+=
+                            `
+                            <div class="part-card" id="${i.SKU}">
+                                <img src="${i.img}">
+                                <p class="part-name">${i.name}</p>
+                                <p class="sku-number">${i.SKU}</p>
+                            </div>
+                            `;
+                        break;
+                    case "Hardware":
+                        partsHardware.innerHTML+=
+                            `
+                            <div class="part-card" id="${i.SKU}">
+                                <img src="${i.img}">
+                                <p class="part-name">${i.name}</p>
+                                <p class="sku-number">${i.SKU}</p>
+                            </div>
+                            `;
+                        break;
+            }
+
+            }
+        }
     
     }
     addCardEventListeners()
