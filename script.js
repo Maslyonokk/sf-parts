@@ -31,6 +31,7 @@ const testField = document.getElementById('test-field')
 const outputTextField = document.getElementById('output-text-field')
 const copyButton = document.getElementById('copy-button')
 const clearButton = document.getElementById('clear-button')
+const links = document.getElementById('links')
 
 
 const partsMostUsed = document.getElementById('parts-most-used')
@@ -278,3 +279,15 @@ function outputAllSKU(){
     }
 }
 
+function createCategoryLinks(){
+    const categories = document.getElementsByTagName("h3")
+
+    for (i of categories){
+        links.innerHTML += 
+        `
+            <a href="#${i.id}">${i.textContent}</a>
+        `
+    }
+}
+
+createCategoryLinks()

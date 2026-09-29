@@ -29,6 +29,7 @@ button:active {
 }
 
 .codes-area {
+    margin-top: 20px;
     margin-bottom: 20px;
     min-height: 100px;
     background-color:white;
@@ -59,4 +60,11 @@ button:active {
 
 .highlight {
     background-color: #fe8900;
+}
+
+.links {
+    background-color: white;
+    position:fixed;
+    top: 15px;
+    
 }
