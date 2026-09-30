@@ -1,0 +1,240 @@
+name,SKU,forPedal,forPower,img,hookPos,forOG,forDLX,forP7,forP1,partCategory,mostUsed
+washerM5,350123,TRUE,TRUE,imgs\m5_washer.webp,,,,,,,
+Nipple 14/13 for wheel R,100111,TRUE,TRUE,imgs\nipple.png,rightMain,TRUE,TRUE,TRUE,TRUE,Wheel,FALSE
+Nipple 14/14 for wheel F,100112,TRUE,TRUE,imgs\nipple.png,rightMain,TRUE,TRUE,TRUE,TRUE,Wheel,FALSE
+Rim Tape,100115,TRUE,TRUE,imgs\All SKUs_html_6508e13f.png,other,TRUE,TRUE,TRUE,TRUE,Wheel,FALSE
+Spoke 283x2.3 for wheel R,100116,TRUE,TRUE,imgs\spoke.png,other,,,,,Wheel,FALSE
+Spoke 285x2.0 for wheel F,100117,TRUE,TRUE,imgs\spoke.png,other,,,,,Wheel,FALSE
+Spoke 291x2.3 for wheel R,100118,TRUE,TRUE,imgs\spoke.png,other,,,,,Wheel,FALSE
+Spoke 293x2.0 for wheel F,100119,TRUE,TRUE,imgs\spoke.png,other,,,,,Wheel,FALSE
+Sprocket 17T,100120,TRUE,TRUE,imgs\sprocket17t.jpg,rightMain,TRUE,FALSE,,,Wheel,FALSE
+Sprocket 18T,100121,TRUE,TRUE,imgs\sprocket18t.jpg,rightMain,FALSE,TRUE,TRUE,,Wheel,FALSE
+Wheel F cap nut,100130,TRUE,TRUE,imgs\nuts_37.jpg,rightMain,,,,,Wheel,FALSE
+Wheel R Non-turn Washer Left Grey,100131,TRUE,TRUE,imgs\gear_washer_l.png,rightMain,FALSE,TRUE,TRUE,FALSE,Wheel,FALSE
+Wheel R non-turn washer Right Black,100110,TRUE,TRUE,imgs\gear_washer_r.png,rightMain,FALSE,TRUE,TRUE,FALSE,Wheel,FALSE
+Wheel R cap nut 7/8sp,100136,TRUE,TRUE,imgs\nuts_36.png,rightMain,,,,,Wheel,FALSE
+Wheel R cap nut 1sp,100137,TRUE,TRUE,imgs\nuts30.png,rightMain,,,,,Wheel,FALSE
+7 speed hub dust cover,100155,TRUE,TRUE,imgs\hub_dustcap.png,rightMain,FALSE,TRUE,TRUE,FALSE,Wheel,FALSE
+br arm clip 26mm (ALU fr),110102,TRUE,TRUE,,leftFront,TRUE,TRUE,TRUE,TRUE,Brakes,FALSE
+br arm fixation plate 1sp,110103,FALSE,TRUE,,,FALSE,FALSE,FALSE,TRUE,Brakes,FALSE
+br arm fixation plate 7sp,110104,FALSE,TRUE,,,FALSE,FALSE,TRUE,FALSE,Brakes,FALSE
+br cable inner end cap,110106,TRUE,TRUE,imgs\cable_end.webp,leftFront,FALSE,TRUE,TRUE,TRUE,Brakes,FALSE
+br cable inner fixing unit F,110107,,,,,,,,,Brakes,FALSE
+Roller br arm fixation plate R,110111,,,,,,,,,Brakes,FALSE
+br cable outer housing end cap,110112,TRUE,TRUE,,rightMain,FALSE,TRUE,TRUE,TRUE,Brakes,FALSE
+br cable outer housing fixing un and adj,110113,,,,,,,,,Brakes,FALSE
+Roller br grease-hole cap,110114,TRUE,TRUE,imgs\roller_brake_cap.png,rightMain,FALSE,TRUE,TRUE,TRUE,Brakes,FALSE
+Brake lever barrel adjuster,110118,TRUE,TRUE,imgs\adjuster-brake-cable.webp,rightMain,FALSE,TRUE,TRUE,TRUE,Brakes,FALSE
+br lever right black/black,110122,FALSE,TRUE,imgs\brake_lever_R_black.png,,,,,,Brakes,FALSE
+br lever right chrome/black,110123,TRUE,FALSE,imgs\brake_lever_R_silv.png,rightTop,FALSE,TRUE,FALSE,FALSE,Brakes,FALSE
+Roller br F br-unit C6000,110125,FALSE,TRUE,,,,,,,Brakes,FALSE
+Roller br F br-unit C3010,110126,FALSE,TRUE,,,,,,,Brakes,FALSE
+Cable cover black,110127,,,,,,,,,Brakes,FALSE
+Roller br F br-unit C3000,110128,TRUE,FALSE,imgs\All SKUs_html_e36c7228.png,,,,,,Brakes,FALSE
+M9 fixing nut roller br br-unit,110134,TRUE,TRUE,imgs\All SKUs_html_1f049f07.png,rightMain,FALSE,TRUE,TRUE,TRUE,Brakes,FALSE
+br cable inner,110138,,,,,,,,,Brakes,FALSE
+br cable outer housing 500m,110139,,,,,,,,,Brakes,FALSE
+br lever right black/black [Alhonga],110140,,TRUE,,,FALSE,FALSE,FALSE,TRUE,Brakes,FALSE
+br lever Left black/black [Alhonga],110162,,TRUE,,,FALSE,FALSE,FALSE,TRUE,Brakes,FALSE
+Fender F black metal <42mm,120100,TRUE,FALSE,imgs\fender_F_black_metal.png,other,TRUE,FALSE,FALSE,FALSE,Fenders,FALSE
+Fender F black plastic >47mm,120101,FALSE,TRUE,imgs\fender_F_black_plastic.png,other,,,,,Fenders,FALSE
+Fender F sil plastic <42mm,120102,TRUE,FALSE,imgs\fender_F_silv_42mm.png,other,,,,,Fenders,FALSE
+Fender stay mounting plate inside,120103,TRUE,,,other,,,,,Fenders,FALSE
+Fender stay mounting plate outside,120104,TRUE,,,other,,,,,Fenders,FALSE
+Fender R black metal <42mm,120105,TRUE,FALSE,imgs\All SKUs_html_9346c579.png,other,TRUE,FALSE,FALSE,FALSE,Fenders,FALSE
+Fender R black plastic >47mm,120106,FALSE,TRUE,imgs\All SKUs_html_9346c579.png,other,,,,,Fenders,FALSE
+Fender R sil plastic <42mm,120107,TRUE,FALSE,imgs\All SKUs_html_d5832880.png,other,,,,,Fenders,FALSE
+Fender screws,120108,TRUE,,imgs\fender_screw.png,rightMain,TRUE,TRUE,TRUE,TRUE,Fenders,FALSE
+Fender stay F/R black w/ eyelet <42mm,120110,TRUE,,,rightLarge,,,,,Fenders,FALSE
+Fender stay F/R sil long w/ eyelet >47mm,120111,FALSE,TRUE,,,,,,,Fenders,FALSE
+Fender stay mounting clip plastic,120112,TRUE,,imgs\All SKUs_html_b99ea7d.png,rightMain,,,,,Fenders,FALSE
+Fender stay R sil short w/ eyelet >47mm,120113,FALSE,TRUE,,other,,,,,Fenders,FALSE
+Fender F sil plastic >47mm,120115,FALSE,TRUE,imgs\All SKUs_html_e87e7847.png,other,,,,,Fenders,FALSE
+Fender R sil plastic >47mm,120116,FALSE,TRUE,imgs\All SKUs_html_d5832880.png,other,,,,,Fenders,FALSE
+Fender stay R sil long w/ eyelet <42mm,120118,TRUE,,,other,,,,,Fenders,FALSE
+Fender stay R sil short w/ eyelet <42mm,120119,TRUE,,,other,,,,,Fenders,FALSE
+Fender F mudflap,120120,FALSE,TRUE,,other,,,,,Fenders,FALSE
+Inner tube,130100,TRUE,TRUE,imgs\inner-tube.jpg,leftLarge,TRUE,TRUE,TRUE,TRUE,Wheel,TRUE
+Inner tube valve,130101,TRUE,TRUE,imgs\valve.png,rightMain,TRUE,TRUE,TRUE,TRUE,Wheel,FALSE
+Bottom bracket (ALU fr),140100,TRUE,FALSE,,rightMain,TRUE,TRUE,FALSE,FALSE,Drivetrain,FALSE
+Bottom bracket (Steel fr),140101,TRUE,FALSE,,rightMain,TRUE,FALSE,FALSE,FALSE,Drivetrain,FALSE
+Chain link,150102,TRUE,TRUE,imgs\kmc-ept-missinglink-1-8-silver-2-4715575896946-0-l.webp,rightMain,TRUE,TRUE,TRUE,TRUE,Drivetrain,TRUE
+Chain Tensioner diagonal dropout,150103,TRUE,TRUE,imgs\All SKUs_html_94e5301a.png,,,,,,Drivetrain,
+Chain tensioner horizontal dropout,150105,TRUE,,imgs\All SKUs_html_26f3a841.png,,,,,,Drivetrain,
+Pedal right,160101,TRUE,TRUE,imgs\pedals.png,rightLarge,TRUE,TRUE,TRUE,TRUE,Drivetrain,TRUE
+Pedal left,160102,TRUE,TRUE,imgs\pedals.png,leftLarge,TRUE,TRUE,TRUE,TRUE,Drivetrain,TRUE
+Cassette joint 7sp short CJ-NX10 set,170101,TRUE,TRUE,imgs\All SKUs_html_ef1ced29.png,,,,,,Gears,
+Gripshifter 7sp,170108,TRUE,TRUE,imgs\shimano-nexus-revo-.webp,,FALSE,TRUE,TRUE,FALSE,Gears,FALSE
+Gripshifter barrel adjuster,170110,TRUE,TRUE,imgs\shifter-barrel-adjuster.webp,,FALSE,TRUE,TRUE,FALSE,Gears,FALSE
+Gripshifter cover 7sp,170111,TRUE,TRUE,imgs\shimano-cover-cap-nexus.webp,,FALSE,TRUE,TRUE,FALSE,Gears,FALSE
+Gripshifter rubber grip 7sp,170112,TRUE,TRUE,imgs\shimano-nexus-rubber.webp,,FALSE,TRUE,TRUE,FALSE,Gears,FALSE
+Gear Nut,170113,TRUE,TRUE,imgs\shimano-kabelklem-voor-nexus-7-8-cassette-joint-es.webp,,,,,,Gears,
+Grip shifter Rubber V2,170114,FALSE,TRUE,,,FALSE,TRUE,TRUE,FALSE,Gears,FALSE
+Chainguard black (for 38T),180101,TRUE,TRUE,imgs\chainguard.png,,TRUE,TRUE,FALSE,FALSE,Chainguard,FALSE
+Chainguard fixation plate,180103,TRUE,TRUE,,,TRUE,TRUE,,,Chainguard,FALSE
+Chainguard bracket,180105,TRUE,FALSE,imgs\chainguard_bracket.png,,TRUE,TRUE,FALSE,FALSE,Chainguard,FALSE
+Chainguard bracket (for DU-E6110),180106,FALSE,TRUE,imgs\chainguard_bracket_ebike.png,,FALSE,FALSE,,,Chainguard,FALSE
+Chainguard screw,180110,TRUE,TRUE,,,TRUE,TRUE,,,Chainguard,FALSE
+Chainguard black (for 44T),180112,FALSE,TRUE,imgs\chainguard_ebike.png,,FALSE,FALSE,TRUE,TRUE,Chainguard,FALSE
+Crank arm left black,190105,TRUE,FALSE,imgs\crank_left_black.png,,,,,,Drivetrain,TRUE
+Crank arm right + chainring black 38T,190118,TRUE,FALSE,imgs\crank_right_black.jpg,,,,,,Drivetrain,TRUE
+Crank arm left sil,190107,TRUE,FALSE,imgs\All SKUs_html_cb17c8f3.png,,,,,,Drivetrain,FALSE
+Crank arm right + chainring sil 38T,190111,TRUE,FALSE,imgs\All SKUs_html_bbb17923.png,,,,,,Drivetrain,FALSE
+Crank bolt,190109,TRUE,FALSE,imgs\All SKUs_html_2708c8d9.png,,,,,,Drivetrain,FALSE
+Crank bolt cover,190110,TRUE,FALSE,,,,,,,Drivetrain,FALSE
+OG Front Fork,200101,TRUE,FALSE,imgs\All SKUs_html_b6f88b7e.png,,,,,,Steering,TRUE
+L Deluxe Front Fork,200102,TRUE,FALSE,,,,,,,Steering,FALSE
+M Deluxe Front Fork,200103,TRUE,FALSE,,,,,,,Steering,FALSE
+S Deluxe Front Fork,200105,TRUE,FALSE,,,,,,,Steering,FALSE
+Carrier black,220100,TRUE,FALSE,imgs\steco-front-rack-flow-28-inch-mat-black-8713397008741-0-l.webp,,,,,,Carrier,FALSE
+Carrier black long,220101,FALSE,TRUE,,,,,,,Carrier,FALSE
+Carrier bumper black round,220102,TRUE,TRUE,,,,,,,Carrier,FALSE
+Carrier bumper black straight edges,220103,TRUE,TRUE,,,,,,,Carrier,FALSE
+Carrier bumper sil round,220104,TRUE,TRUE,,,,,,,Carrier,FALSE
+Carrier mounting bracket black,220106,TRUE,TRUE,imgs\All SKUs_html_12a776ed_black.png,,,,,,Carrier,TRUE
+Carrier mounting bracket sil,220107,TRUE,TRUE,imgs\All SKUs_html_12a776ed.png,,,,,,Carrier,TRUE
+Carrier mounting plate black,220108,TRUE,TRUE,imgs\All SKUs_html_ddef19f1.png,,,,,,Carrier,TRUE
+Carrier mounting plate sil,220109,TRUE,TRUE,imgs\All SKUs_html_35eb83b4.png,,,,,,Carrier,TRUE
+Carrier sil,220110,TRUE,TRUE,imgs\All SKUs_html_77b8d44a.png,,,,,,Carrier,FALSE
+Carrier sil long,220111,FALSE,TRUE,,,,,,,Carrier,FALSE
+Kickstand 1-bolt,230100,TRUE,FALSE,imgs\ursus-king-ii-kickstand-26-28-aluminum-black-8053677176631-0-l.jpg,,,,,,Frame,FALSE
+Kickstand 2-bolt,230103,FALSE,TRUE,imgs\ursus-king-evo-chainstay-kickstand-24-28-40mm-black-8053677177829-0-l.jpg,,,,,,Frame,FALSE
+Kickstand 1-bolt adjustable leg incl ft,230104,TRUE,FALSE,imgs\All SKUs_html_c840d23a.png,,,,,,Frame,FALSE
+Kickstand 2-bolt plastic ft,230105,FALSE,TRUE,,,,,,,Frame,FALSE
+Kickstand 2-bolt adjustable leg incl ft,230106,FALSE,TRUE,,,,,,,Frame,FALSE
+Kickstand 1-bolt adapter - narrow plate,230107,TRUE,FALSE,,,,,,,Frame,FALSE
+Grip 120mm,240100,TRUE,TRUE,imgs\herrmans-cut-93a-b-grips-single-density-120-90mm-bl-6438534001394-0-l.jpg,,,,,,Steering,TRUE
+Grip 70mm,240101,TRUE,FALSE,imgs\vivaldi_DXBHeUrYgz.png,,,,,,Steering,FALSE
+Grip lock-on left 123mm,240104,FALSE,TRUE,imgs\All SKUs_html_ac7779e4.png,,,,,,Steering,FALSE
+Grip lock-on right 90mm,240105,FALSE,TRUE,imgs\herrmans-clik-grip-90mm-black-775336-0-l.jpg,,,,,,Steering,FALSE
+Grip lock-on end cap plastic left,240107,FALSE,TRUE,,,,,,,Steering,FALSE
+Grip lock-on end cap plastic right,240108,FALSE,TRUE,,,,,,,Steering,FALSE
+Headset chrome set 1 1/8 inch (ALU fr),250100,TRUE,,imgs\contec-headset-hs-30-1-1-8-crown-race-30mm-silver-4250311313689-0-l.jpg,,,TRUE,,,Steering,FALSE
+Headset chrome set 1 inch (Steel fr),250101,TRUE,,imgs\contec-headset-hs-30-1-1-8-crown-race-30mm-silver-4250311313689-0-l.jpg,,TRUE,,,,Steering,FALSE
+Headset ball bearing ring 1 inch (ALU fr,250102,,,,,,,,,Steering,FALSE
+Headset cap,250103,,,,,,,,,Steering,FALSE
+Cable guide bkt,250104,,,,,,,,,Steering,FALSE
+Headset cover,250105,TRUE,,,,TRUE,,,,Steering,FALSE
+Headset cover w/ cable guide 1 inch,250106,,,,,,,,,Steering,FALSE
+Headset cover w/ cable guide 1 1/8 inch,250107,TRUE,,,,,TRUE,,,Steering,FALSE
+Headset lock washer,250109,,,,,,,,,Steering,FALSE
+Headset lower set,250110,,,,,,,,,Steering,FALSE
+Headset upper set + lock ring,250111,,,,,,,,,Steering,FALSE
+Headset upper set 1 inch,250112,,,,,,,,,Steering,FALSE
+Headset ball bearing ring 1 inch (Steel,250113,,,,,,,,,Steering,FALSE
+Headset bearing P7,250123,,,,,,,,,Steering,FALSE
+Crown Race OR/D7,250131,TRUE,,,,TRUE,TRUE,,,Steering,FALSE
+Headset Lock Nut,250132,TRUE,,,,TRUE,TRUE,,,Steering,FALSE
+Stem sil 40mm,260101,TRUE,,imgs\All SKUs_html_4580be0b.png,,,,,,Steering,TRUE
+Handlebar black ALU,260102,FALSE,TRUE,,,,,,,Steering,FALSE
+Handlebar sil stainless sportive,260103,TRUE,FALSE,imgs\All SKUs_html_d3eedfa5.png,,,,,,Steering,FALSE
+Handlebar sil stainless relaxed,260104,TRUE,FALSE,,,,,,,Steering,FALSE
+Stem black 60mm,260105,FALSE,TRUE,imgs\All SKUs_html_b06df244.png,,,,,,Steering,FALSE
+Stem bolt 295mm,260106,,,imgs\All SKUs_html_edb7ca9b.png,,,,,,Steering,FALSE
+Stem bolt cover grey,260107,TRUE,TRUE,,,,,,,Steering,FALSE
+Stem expander,260108,TRUE,TRUE,imgs\All SKUs_html_c897a3d5.png,,,,,,Steering,FALSE
+Handlebar sil ALU,260109,FALSE,TRUE,imgs\All SKUs_html_4f01b68f.png,,,,,,Steering,FALSE
+Stem sil 60mm,260110,,TRUE,,,,,,,Steering,FALSE
+Stem bolt cover black,260111,FALSE,TRUE,,,,,,,Steering,FALSE
+SP Connect square type (for smartphone),260114,FALSE,TRUE,,,,,,,Steering,FALSE
+Stem bolt 245mm,260115,,,,,,,,,Steering,FALSE
+Short Handlebar bolt (M10 x 25),260116,,,,,,,,,Steering,FALSE
+Stem sil 60mm w/ SP Connect,260117,,,,,,,,,Steering,FALSE
+Light cable (200m),270100,FALSE,FALSE,,,,,,,Lights,FALSE
+Light cable connector dynamo hub,270101,TRUE,FALSE,,,,,,,Lights,FALSE
+Light cable connector light module E,270103,TRUE,TRUE,imgs\All SKUs_html_815e6a27.png,,,,,,Lights,FALSE
+Light module F dynamo,270105,TRUE,FALSE,,,,,,,Lights,FALSE
+Light module F E,270106,FALSE,TRUE,,,,,,,Lights,FALSE
+Light module R dynamo,270108,TRUE,FALSE,,,,,,,Lights,FALSE
+Light module R E,270109,FALSE,TRUE,,,,,,,Lights,FALSE
+Light bracket R (also for reflector),270111,TRUE,TRUE,imgs\All SKUs_html_64f96404.png,,,,,,Lights,FALSE
+Reelight bracket R,270112,TRUE,FALSE,imgs\light_bracket_rear.webp,,,,,,Lights,FALSE
+Reelight module F,270113,TRUE,FALSE,imgs\single-light-front_c840dee8-5bec-4962-bd04-2cb0be7d498f.webp,,,,,,Lights,FALSE
+Reelight bracket F,270115,TRUE,FALSE,imgs\light_bracket_front.webp,,,,,,Lights,FALSE
+Reflector R wide,270120,FALSE,TRUE,,,,,,,Lights,FALSE
+Reelight module R,270122,TRUE,FALSE,imgs\single-light-rear_ecf31e26-a3c7-40f0-ad2f-21080c827342.webp,,,,,,Lights,FALSE
+Light module F E + USB port,270123,FALSE,TRUE,imgs\All SKUs_html_76113614.png,,,,,,Lights,FALSE
+Reelight sensor,270124,TRUE,FALSE,imgs\light_magnet.webp,,,,,,Lights,FALSE
+Light cable connector module R,270133,TRUE,TRUE,,,,,,,Lights,FALSE
+Light cable connector plug module F USB,270134,FALSE,TRUE,,,,,,,Lights,FALSE
+R-Light HALO+ XE wide angle,270137,FALSE,TRUE,,,,,,,Lights,FALSE
+Battery lock key unit,280100,FALSE,TRUE,,,,,,,Locks,FALSE
+Battery lock key cilinder,280101,FALSE,TRUE,,,,,,,Locks,FALSE
+Chain lock,280103,TRUE,FALSE,imgs\axa-einsteckkette-rlc-100-fusion-defender-solid-dicke-o-55-mm-l-100-cm-inkl-rahmentasche~2.jpg,,,,,,Locks,FALSE
+Chain lock extra strong,280105,FALSE,TRUE,,,,,,,Locks,FALSE
+Chain lock pic cover,280106,TRUE,FALSE,imgs\All SKUs_html_f07254.png,,,,,,Locks,FALSE
+Chain lock sleeve,280107,,,imgs\All SKUs_html_5588d8de.png,,,,,,Locks,FALSE
+Ring lock block XXL,280109,FALSE,TRUE,,,,,,,Locks,FALSE
+Ring lock defender,280110,TRUE,FALSE,imgs\axa-frame-lock-defender-rl-matt-metallic-black-8713249114873-0-l.jpg,,,,,,Locks,TRUE
+Ring lock Defender lever cover plastic,280111,TRUE,FALSE,imgs\All SKUs_html_cb75aa3b.png,,,,,,Locks,FALSE
+Ring lock Block XXL lever cover plastic,280112,FALSE,TRUE,,,,,,,Locks,FALSE
+Key ring,280113,,,,,,,,,Locks,FALSE
+Chain lock sleeve extra strong,280114,,,,,,,,,Locks,FALSE
+Chain lock pic cover extra strong,280115,FALSE,TRUE,,,,,,,Locks,FALSE
+Seatpost clamp black 35.3mm,290100,,TRUE,,,,,,,Saddle,
+Seatpost clamp bolt M8x35,290101,TRUE,TRUE,imgs\All SKUs_html_af54d9dd.png,,,,,,Saddle,
+Seatpost clamp sil 28.6mm,290103,TRUE,,,,,,,,Saddle,
+Seatpost clamp sil 31.9mm,290104,TRUE,,,,,,,,Saddle,
+Seatpost clamp sil 35.3mm,290105,,,,,,,,,Saddle,
+Seatpost patent black 27.2mm/350mm,290106,,TRUE,,,,,,,Saddle,
+Seatpost patent sil 25.4mm,290107,TRUE,,imgs\photo_2026-09-29_21-02-53.jpg,,,,,,Saddle,TRUE
+Seatpost patent sil 27.2mm,290108,TRUE,,imgs\photo_2026-09-29_21-02-52.jpg,,,,,,Saddle,TRUE
+Seatpost reducer shim 27.2mm,290109,,,,,,,,,Saddle,
+Seatpost clamp bolt M8x40,290110,TRUE,TRUE,imgs\All SKUs_html_af54d9dd.png,,,,,,Saddle,
+Seatpost clamp sil 35.0mm,290111,,,,,,,,,Saddle,
+M8 Cap Nut (for seatpost clamp bolt),290115,,,,,,,,,Saddle,
+"Seatpost SB Sil Anod. Al 27,2x350",290127,,,,,,,,,Saddle,
+Seatpost clamp bolt M8x35 (HEX),290128,,,,,,,,,Saddle,
+Saddle black narrow,300100,TRUE,,imgs\husqvarna-crosser-selle-cassette-1.webp,,,,,,Saddle,TRUE
+Saddle black wide,300101,TRUE,,imgs\1200x955.jpg,,,,,,Saddle,TRUE
+Saddle black w/ handle narrow,300102,,TRUE,,,,,,,Saddle,
+Saddle black w/ handle wide,300105,,TRUE,imgs\selle-royal-selle-royal-orbis-cruiser-breed-fietsz.webp,,,,,,Saddle,
+Bell clasic ringring,310100,TRUE,TRUE,imgs\All SKUs_html_871a6b11.png,,,,,,Steering,
+Cable tie w/ eyelet 200x4.8 (100pc),350100,TRUE,TRUE,imgs\All SKUs_html_ce108.png,,,,,,Hardware,
+M10 Washer normal,350103,TRUE,TRUE,imgs\All SKUs_html_1a031891.png,,,,,,Hardware,
+M10 Washer wide,350105,TRUE,TRUE,,,,,,,Hardware,
+M10x25 Bolt hex socket head,350106,TRUE,,,,,,,,Hardware,
+"Chainguard mb fixing bolts (M4x0.8, DU)",350107,,,,,,,,,Hardware,
+M4 Washer wide,350108,,,,,,,,,Hardware,
+M4X10 Bolt hex socket head low,350109,,,,,,,,,Hardware,
+M5 lock nut,350110,TRUE,TRUE,imgs\All SKUs_html_767fff70.png,,,,,,Hardware,
+M5 Washer normal,350111,TRUE,TRUE,,,,,,,Hardware,
+M5 Washer wide,350112,TRUE,TRUE,,,,,,,Hardware,
+M5x10 Bolt hex socket head,350114,TRUE,TRUE,,,,,,,Hardware,
+M5x12 Bolt hex socket head,350115,TRUE,TRUE,,,,,,,Hardware,
+M5x16 Bolt hex socket head,350116,TRUE,TRUE,,,,,,,Hardware,
+M5x20 Bolt hex socket head,350118,TRUE,TRUE,,,,,,,Hardware,
+M5x8 Bolt hex socket button w/ flange,350119,,,,,,,,,Hardware,
+M6 Lock nut,350120,TRUE,TRUE,,,,,,,Hardware,
+M6 Washer normal,350123,TRUE,,imgs\m5_washer.webp,,,,,,Hardware,
+M6x16 Bolt hex socket head,350124,TRUE,,,,,,,,Hardware,
+M6x20 Bolt hex socket head,350125,TRUE,,,,,,,,Hardware,
+M6x40 Bolt hex socket head,350126,TRUE,,,,,,,,Hardware,
+M6x50 Bolt hex socket head,350127,TRUE,,,,,,,,Hardware,
+M6x65 Bolt hex socket head,350128,,,,,,,,,Hardware,
+M6x70 Bolt hex socket head,350129,,,,,,,,,Hardware,
+M8 lock nut,350130,TRUE,,,,,,,,Hardware,
+M8 Washer normal,350131,TRUE,,,,,,,,Hardware,
+Drive unit fix bolts (M8x20 Torx low),350132,,,,,,,,,Hardware,
+Snap hook,350135,,,,,,,,,Hardware,
+M5x12 Bolt hex socket head low,350136,,,,,,,,,Hardware,
+M5x16 Bolt hex socket head low,350137,,,,,,,,,Hardware,
+M10 Washer serrated,350139,,,,,,,,,Hardware,
+M3x6 Bolt hex socket head countersunk,350140,,,,,,,,,Hardware,
+M3x6 Bolt hex socket head button,350141,,,,,,,,,Hardware,
+M5x35 Bolt hex (for chain tensioner),350142,,,,,,,,,Hardware,
+M6 Washer hollow,350143,,,,,,,,,Hardware,
+M3 Washer wide,350144,,,,,,,,,Hardware,
+Spacer plastic white (sleeves),350145,,,,,,,,,Hardware,
+Blind rivet (sleeves),350146,,,,,,,,,Hardware,
+Cable tie black 2.5mm x 100mm (100pc),350147,TRUE,TRUE,imgs\All SKUs_html_ce108.png,,,,,,Hardware,
+M6x16 Bolt hex,350148,,,,,,,,,Hardware,
+M5x10 Bolt hex socket button w/ flange,350149,,,,,,,,,Hardware,
+M5 Washer wide plastic (chainguard),350150,,,,,,,,,Hardware,
+M6 Lock nut with flange,350152,TRUE,TRUE,,,,,,,Hardware,
+M10 Washer w/ safety hook,350153,,,,,,,,,Hardware,
+Cable tie black 3.6mm x 200mm(100pc),350154,TRUE,TRUE,imgs\All SKUs_html_ce108.png,,,,,,Hardware,
+M5x30 Bolt hex socket head,350155,,,,,,,,,Hardware,
+M3x6 Bolt hex socket head,350156,,,,,,,,,Hardware,
+M5 Lock nut w/ flange,350167,TRUE,TRUE,,,,,,,Hardware,
+Front Light cable clamp,350189,,,,,,,,,Hardware,
